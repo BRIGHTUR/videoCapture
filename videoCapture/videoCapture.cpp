@@ -5,7 +5,7 @@ using namespace cv;
 int main()
 {
 	VideoCapture cap;
-	cap.open(0);
+	cap.open("1.mp4");
 	if (!cap.isOpened())
 	{
 		std::cout << "不能打开视频文件" << std::endl;
